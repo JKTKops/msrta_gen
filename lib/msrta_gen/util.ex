@@ -24,16 +24,16 @@ defmodule MsrtaGen.Util do
           case beast do
             "medoh" ->
               b = Enum.at Definitions.beasts, 0
-              [b, b, b, b]
+              [b, b]
             "naboris" ->
               b = Enum.at Definitions.beasts, 1
-              [b, b, b, b]
+              [b, b]
             "rudania" ->
               b = Enum.at Definitions.beasts, 2
-              [b, b, b, b]
+              [b, b]
             "ruta" ->
               b = Enum.at Definitions.beasts, 3
-              [b, b, b, b]
+              [b, b]
           end
         end |> List.flatten
     end
